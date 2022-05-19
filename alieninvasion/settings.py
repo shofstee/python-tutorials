@@ -15,7 +15,7 @@ class Settings:
 
         # Bullet settings
         self.bullet_speed = 1.0
-        self.bullet_width = 3
+        self.bullet_width = 300
         self.bullet_height = 15
         self.bullet_color = (230, 0, 0)
         # Number of simultaneous bullets (<= 0 means unlimited)
@@ -23,3 +23,8 @@ class Settings:
 
         # Alien settings
         self.alien_speed = 0.1
+        self.fleet_drop_speed = 10
+        self.fleet_direction = 1
+        self.alien_speed_upgrade=0.1
+
+        self.ship_limit=3
