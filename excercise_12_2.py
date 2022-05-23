@@ -16,7 +16,6 @@ class Exercise:
                 if event.type == pygame.QUIT:
                     sys.exit()
 
-            pygame.event.get()
             self.screen.fill((250, 250, 250))
             character = Character(self)
             character.blitme()
