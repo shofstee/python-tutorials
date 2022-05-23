@@ -1,5 +1,6 @@
 import pygame
 from pygame.sprite import Sprite
+from game_stats import GameStats
 
 class Alien(Sprite):
     """A class to represent a single alien in the fleet."""
@@ -10,6 +11,7 @@ class Alien(Sprite):
 
         self.screen = ai_game.screen
         self.settings = ai_game.settings
+        self.stats = ai_game.stats
         self.screen_rect = ai_game.screen.get_rect()
 
         # Load the alien image and set its rect attribute.
@@ -31,5 +33,5 @@ class Alien(Sprite):
     def update(self):
         """Move the alien right or left."""
 
-        self.x += (self.settings.alien_speed * self.settings.fleet_direction)
+        self.x += (self.settings.alien_speed * self.settings.alien_speed_upgrade * self.stats.level * self.settings.fleet_direction)
         self.rect.x = self.x
