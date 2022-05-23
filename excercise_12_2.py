@@ -17,14 +17,25 @@ class Exercise:
                     sys.exit()
 
             pygame.event.get()
-            self.screen.fill((0, 0, 230))
+            self.screen.fill((250, 250, 250))
+            character = Character(self)
+            character.blitme()
             pygame.display.flip()
 
 
 class Character:
 
     def __init__(self, exercise):
+        self.screen = exercise.screen
         self.screen_rect = exercise.screen.get_rect()
+        self.image = pygame.image.load('alieninvasion/images/spaceship.bmp')
+        self.rect = self.image.get_rect()
+
+        self.rect.center = self.screen_rect.center
+
+    def blitme(self):
+        """Draw the ship at its current location."""
+        self.screen.blit(self.image, self.rect)
 
 if __name__ == '__main__':
     ex = Exercise()

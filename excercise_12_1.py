@@ -2,7 +2,7 @@ import sys
 import pygame
 
 
-class Excercise:
+class Exercise:
 
     def __init__(self):
         pygame.init()
@@ -22,5 +22,5 @@ class Excercise:
 
 
 if __name__ == '__main__':
-    ex = Excercise()
+    ex = Exercise()
     ex.run()
