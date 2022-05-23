@@ -7,7 +7,7 @@ class Exercise:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((1200, 800))
-        pygame.display.set_caption("Exercise 12.1")
+        pygame.display.set_caption("Exercise 12.4")
 
     def run(self):
         character = Character(self)
