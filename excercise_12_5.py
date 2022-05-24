@@ -28,7 +28,7 @@ class Exercise:
 
             self.screen.fill((230, 230, 230))
 
-            image = self.font.render(self.tekst, True, (0,0,0), (230,230, 230))
+            image = self.font.render(self.tekst, True, (0, 0, 0), (230, 230, 230))
             rect = image.get_rect()
             rect.center = self.screen_rect.center
             self.screen.blit(image, rect)
