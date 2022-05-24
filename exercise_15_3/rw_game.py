@@ -2,8 +2,7 @@ import sys
 from random import choice
 
 import pygame
-
-from exercise_15_3.random_walk import RandomWalk
+from pygame.sprite import Sprite
 
 
 class RwGame:
@@ -13,30 +12,54 @@ class RwGame:
         pygame.init()
 
         self.screen = pygame.display.set_mode((1200, 800))
-        self.walk = RandomWalkGame(self)
+        self.walkers = pygame.sprite.Group()
+
+        print("Press 'a' to add walker")
+        print("Press 'r' to remove oldest walker")
+        print("Press 'q' to quit")
 
     def start(self):
         while True:
             self._check_events()
-            self.walk.step()
+            self.walkers.update()
             self._update_screen()
 
     def _check_events(self):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_q:
+                    sys.exit()
+                if event.key == pygame.K_a:
+                    self.add_walker()
+                if event.key == pygame.K_r:
+                    self._remove_oldest_walker()
+
+    def _remove_oldest_walker(self):
+        temp_walkers = pygame.sprite.Group()
+        first = True
+        for w in self.walkers.copy():
+            if not first:
+                temp_walkers.add(w)
+            first = False
+        self.walkers = temp_walkers
+
+    def add_walker(self):
+        self.walkers.add(RandomWalkGame(self))
 
     def _update_screen(self):
         """Redraw the screen during each pass through the loop."""
         # Make the most recently drawn screen visible.
         self.screen.fill((230, 230, 230))
-        self.walk.blitme()
+        self.walkers.draw(self.screen)
         pygame.display.flip()
 
 
-class RandomWalkGame:
+class RandomWalkGame(Sprite):
 
     def __init__(self, the_game, distance_x=None, distance_y=None):
+        super(RandomWalkGame, self).__init__()
         if distance_x is None:
             distance_x = [0, 1, 2, 3, 4]
         if distance_y is None:
@@ -56,7 +79,7 @@ class RandomWalkGame:
     def blitme(self):
         self.screen.blit(self.image, self.rect)
 
-    def step(self):
+    def update(self):
         x_direction = choice([1, -1])
 
         x_distance = choice(self.distance_x)
@@ -68,27 +91,28 @@ class RandomWalkGame:
 
         if x_step == 0 and y_step == 0:
             # If no movement, take another step
-            self.step()
+            self.update()
             return
 
         new_x = self.rect.x + x_step
         new_y = self.rect.y + y_step
-        # Validate new values
 
+        # Validate if new x is on screen if so, update x
         if new_x <= 0:
-            self.step()
+            self.update()
             return
         elif new_x >= self.screen_rect.right:
-            self.step()
+            self.update()
             return
         else:
             self.rect.x = new_x
 
+        # Validate if new y is on screen if so, update y
         if new_y <= 0:
-            self.step()
+            self.update()
             return
         elif new_y >= self.screen_rect.bottom:
-            self.step()
+            self.update()
             return
         else:
             self.rect.y = new_y
