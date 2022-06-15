@@ -1,13 +1,13 @@
 import json
-from plotly.graph_objs import Scattergeo, Layout
-from plotly import offline
+from plotly.graph_objs import Layout
+from plotly import offline, colors
 
 # Explore the structure of the data.
-filename = 'data/eq_data_30_day_m1.json'
+eq_filename = 'data/eq_data_30_day_m1.json'
 
 mags, lons, lats, hover_texts = [], [], [], []
 
-with open(filename) as f:
+with open(eq_filename) as f:
     all_eq_data = json.load(f)
     all_eq_dicts = all_eq_data['features']
 
@@ -20,6 +20,9 @@ for eq_dict in all_eq_dicts:
 
 print(mags[:10])
 print(len(all_eq_dicts))
+
+for key in colors.PLOTLY_SCALES.keys():
+    print(key)
 
 data = [{
     'type': 'scattergeo',
@@ -36,4 +39,4 @@ data = [{
 }]
 my_layout = Layout(title=all_eq_data['metadata']['title'])
 fig = {'data': data, 'layout': my_layout}
-offline.plot(fig, filename='global_earthquakes.html')
+offline.plot(fig, filename='/tmp/global_earthquakes.html')
