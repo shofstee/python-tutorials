@@ -1,10 +1,9 @@
 import requests
-from plotly.graph_objs import Bar
 
 from plotly import offline
 
 # Make an API call and store the response.
-language='java'
+language = 'java'
 url = f'https://api.github.com/search/repositories?q=language:{language}&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
 r = requests.get(url, headers=headers)
@@ -29,8 +28,8 @@ data = [{
     'y': stars,
     'hovertext': labels,
     'marker': {
-       'color': 'rgb(60, 100, 150)',
-       'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
+        'color': 'rgb(60, 100, 150)',
+        'line': {'width': 1.5, 'color': 'rgb(25, 25, 25)'}
     },
     'opacity': 0.6,
 }]
