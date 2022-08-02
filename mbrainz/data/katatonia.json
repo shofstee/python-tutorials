@@ -1,0 +1,509 @@
+{
+    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+    "sort-name": "Katatonia",
+    "name": "Katatonia",
+    "end-area": null,
+    "life-span": {
+        "end": null,
+        "begin": "1991",
+        "ended": false
+    },
+    "end_area": null,
+    "begin_area": {
+        "disambiguation": "",
+        "id": "1127ddc2-eab3-4662-8718-6adbdeea3b10",
+        "name": "Stockholm",
+        "sort-name": "Stockholm",
+        "type": null,
+        "type-id": null
+    },
+    "country": "SE",
+    "disambiguation": "Swedish metal band",
+    "isnis": [
+        "000000010660513X"
+    ],
+    "type": "Group",
+    "begin-area": {
+        "disambiguation": "",
+        "id": "1127ddc2-eab3-4662-8718-6adbdeea3b10",
+        "name": "Stockholm",
+        "sort-name": "Stockholm",
+        "type": null,
+        "type-id": null
+    },
+    "ipis": [],
+    "gender": null,
+    "relations": [
+        {
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "type": "Person",
+                "sort-name": "Nyström, Anders",
+                "name": "Anders Nyström",
+                "disambiguation": "",
+                "id": "b4d33869-2186-4188-92c9-cc7c54fce01e"
+            },
+            "attributes": [
+                "background vocals",
+                "guitar",
+                "keyboard",
+                "original"
+            ],
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda",
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978",
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+            },
+            "attribute-credits": {},
+            "ended": true,
+            "attribute-values": {},
+            "direction": "backward",
+            "end": "1994",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "source-credit": "",
+            "begin": "1991"
+        },
+        {
+            "attributes": [
+                "drums (drum set)",
+                "lead vocals",
+                "original"
+            ],
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Renkse, Jonas",
+                "type": "Person",
+                "name": "Jonas Renkse",
+                "disambiguation": "",
+                "id": "d3ad2187-063a-44ad-9f72-97a9ba8cab56"
+            },
+            "type": "member of band",
+            "ended": true,
+            "attribute-values": {},
+            "attribute-credits": {},
+            "target-credit": "",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "direction": "backward",
+            "end": "1994",
+            "source-credit": "",
+            "begin": "1991"
+        },
+        {
+            "attributes": [
+                "bass guitar"
+            ],
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Huche, Guillaume le",
+                "type": "Person",
+                "name": "Guillaume le Huche",
+                "disambiguation": "",
+                "id": "eede9c2e-52bc-46fb-a676-7cde770955ed"
+            },
+            "type": "member of band",
+            "attribute-values": {},
+            "ended": true,
+            "attribute-credits": {},
+            "target-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "direction": "backward",
+            "end": "1994",
+            "source-credit": "",
+            "begin": "1993"
+        },
+        {
+            "artist": {
+                "sort-name": "Norrman, Fred",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "id": "c9f8241b-4ed5-4af6-91df-95eda30e933d",
+                "name": "Fred Norrman"
+            },
+            "attributes": [
+                "guitar"
+            ],
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "attribute-credits": {},
+            "ended": true,
+            "attribute-values": {},
+            "direction": "backward",
+            "end": "2009-12",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "source-credit": "",
+            "begin": "1994"
+        },
+        {
+            "attribute-ids": {
+                "additional": "0a5341f8-3b1d-4f99-a0c6-26b7f4e42c7f",
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5"
+            },
+            "target-credit": "",
+            "ended": true,
+            "attribute-credits": {},
+            "attribute-values": {},
+            "type": "member of band",
+            "artist": {
+                "sort-name": "Åkerfeldt, Mikael",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "id": "1a2b4f01-cdc8-406d-b34b-eef8603d104e",
+                "name": "Mikael Åkerfeldt"
+            },
+            "attributes": [
+                "additional",
+                "lead vocals"
+            ],
+            "begin": "1996",
+            "source-credit": "",
+            "end": "1997",
+            "direction": "backward",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821"
+        },
+        {
+            "ended": true,
+            "attribute-credits": {},
+            "attribute-values": {},
+            "attribute-ids": {
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "target-credit": "",
+            "type": "member of band",
+            "artist": {
+                "name": "Jonas Renkse",
+                "disambiguation": "",
+                "id": "d3ad2187-063a-44ad-9f72-97a9ba8cab56",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "type": "Person",
+                "sort-name": "Renkse, Jonas"
+            },
+            "attributes": [
+                "background vocals",
+                "drums (drum set)",
+                "original"
+            ],
+            "begin": "1996",
+            "source-credit": "",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "end": "1998",
+            "direction": "backward"
+        },
+        {
+            "attributes": [
+                "background vocals",
+                "guitar",
+                "keyboard",
+                "original"
+            ],
+            "artist": {
+                "name": "Anders Nyström",
+                "disambiguation": "",
+                "id": "b4d33869-2186-4188-92c9-cc7c54fce01e",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Nyström, Anders",
+                "type": "Person"
+            },
+            "type": "member of band",
+            "ended": false,
+            "attribute-credits": {},
+            "attribute-values": {},
+            "target-credit": "",
+            "attribute-ids": {
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978",
+                "keyboard": "95b0c3d2-9606-4ef5-a019-9b7437f3adda",
+                "background vocals": "75052401-7340-4e5b-a71d-ea024a128849"
+            },
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "direction": "backward",
+            "end": null,
+            "source-credit": "",
+            "begin": "1996"
+        },
+        {
+            "direction": "backward",
+            "end": "1998",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "source-credit": "",
+            "begin": "1997",
+            "attributes": [
+                "bass guitar"
+            ],
+            "artist": {
+                "sort-name": "Oretoft, Mikael",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "id": "fcbc2283-d4ea-4eef-90fc-5e6b9cb5fb61",
+                "disambiguation": "",
+                "name": "Mikael Oretoft"
+            },
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "ended": true,
+            "attribute-credits": {},
+            "attribute-values": {}
+        },
+        {
+            "attribute-credits": {},
+            "ended": false,
+            "attribute-values": {},
+            "target-credit": "",
+            "attribute-ids": {
+                "lead vocals": "8e2a3255-87c2-4809-a174-98cb3704f1a5",
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c"
+            },
+            "attributes": [
+                "lead vocals",
+                "original"
+            ],
+            "artist": {
+                "name": "Jonas Renkse",
+                "disambiguation": "",
+                "id": "d3ad2187-063a-44ad-9f72-97a9ba8cab56",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Renkse, Jonas",
+                "type": "Person"
+            },
+            "type": "member of band",
+            "source-credit": "",
+            "begin": "1998",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "direction": "backward",
+            "end": null
+        },
+        {
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "end": null,
+            "direction": "backward",
+            "begin": "1998",
+            "source-credit": "",
+            "type": "member of band",
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Renkse, Jonas",
+                "type": "Person",
+                "name": "Jonas Renkse",
+                "id": "d3ad2187-063a-44ad-9f72-97a9ba8cab56",
+                "disambiguation": ""
+            },
+            "attributes": [
+                "guitar",
+                "original"
+            ],
+            "ended": false,
+            "attribute-values": {},
+            "attribute-credits": {},
+            "attribute-ids": {
+                "original": "4fd3b255-a7d7-4424-9a63-40fa543b601c",
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "target-credit": ""
+        },
+        {
+            "end": "2009-12",
+            "direction": "backward",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "begin": "1999",
+            "source-credit": "",
+            "type": "member of band",
+            "artist": {
+                "id": "7e73c048-793a-4d06-a867-c00d56ad18c4",
+                "disambiguation": "",
+                "name": "Mattias Norrman",
+                "type": "Person",
+                "sort-name": "Norrman, Mattias",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attributes": [
+                "bass guitar"
+            ],
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "target-credit": "",
+            "ended": true,
+            "attribute-values": {},
+            "attribute-credits": {}
+        },
+        {
+            "artist": {
+                "type": "Person",
+                "sort-name": "Liljekvist, Daniel",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "",
+                "id": "9f62ba4e-cd72-4d24-a0d5-888c9863e56d",
+                "name": "Daniel Liljekvist"
+            },
+            "attributes": [
+                "drums (drum set)"
+            ],
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "ended": true,
+            "attribute-values": {},
+            "attribute-credits": {},
+            "direction": "backward",
+            "end": "2014",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "source-credit": "",
+            "begin": "1999"
+        },
+        {
+            "artist": {
+                "type": "Person",
+                "sort-name": "Eriksson, Per",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "disambiguation": "guitarist for Bloodbath and Katatonia",
+                "id": "323e6ba8-1207-4c18-a087-cbde7749c29f",
+                "name": "Per Eriksson"
+            },
+            "attributes": [
+                "guitar"
+            ],
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "ended": true,
+            "attribute-values": {},
+            "attribute-credits": {},
+            "direction": "backward",
+            "end": "2014",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "source-credit": "",
+            "begin": "2009"
+        },
+        {
+            "begin": "2009",
+            "source-credit": "",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "attribute-values": {},
+            "attribute-credits": {},
+            "attribute-ids": {
+                "bass guitar": "17f9f065-2312-4a24-8309-6f6dd63e2e33"
+            },
+            "target-credit": "",
+            "type": "member of band",
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Sandin, Niklas",
+                "type": "Person",
+                "name": "Niklas Sandin",
+                "disambiguation": "",
+                "id": "d5ec3e98-27ca-4bbe-8487-e037cfc3bb60"
+            },
+            "attributes": [
+                "bass guitar"
+            ]
+        },
+        {
+            "begin": "2015",
+            "source-credit": "",
+            "target-type": "artist",
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "end": null,
+            "direction": "backward",
+            "ended": false,
+            "attribute-credits": {},
+            "attribute-values": {},
+            "attribute-ids": {
+                "drums (drum set)": "12092505-6ee1-46af-a15a-b5b468b6b155"
+            },
+            "target-credit": "",
+            "type": "member of band",
+            "artist": {
+                "id": "5827e079-055c-497a-a8b7-f288c3ba24a2",
+                "disambiguation": "",
+                "name": "Daniel Moilanen",
+                "sort-name": "Moilanen, Daniel",
+                "type": "Person",
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df"
+            },
+            "attributes": [
+                "drums (drum set)"
+            ]
+        },
+        {
+            "direction": "backward",
+            "end": null,
+            "type-id": "5be4c609-9afa-4ea0-910b-12ffb71e3821",
+            "target-type": "artist",
+            "source-credit": "",
+            "begin": "2016",
+            "attributes": [
+                "guitar"
+            ],
+            "artist": {
+                "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                "sort-name": "Öjersson, Roger",
+                "type": "Person",
+                "name": "Roger Öjersson",
+                "id": "bc113fca-34eb-4027-828a-a35b6dc5d079",
+                "disambiguation": ""
+            },
+            "type": "member of band",
+            "target-credit": "",
+            "attribute-ids": {
+                "guitar": "63021302-86cd-4aee-80df-2270d54f4978"
+            },
+            "ended": false,
+            "attribute-credits": {},
+            "attribute-values": {}
+        }
+    ],
+    "area": {
+        "type-id": null,
+        "type": null,
+        "sort-name": "Sweden",
+        "iso-3166-1-codes": [
+            "SE"
+        ],
+        "name": "Sweden",
+        "id": "23d10872-f5ae-3f0c-bf55-332788a16ecb",
+        "disambiguation": ""
+    },
+    "gender-id": null,
+    "id": "61ed9c9c-79eb-4e8f-8015-bd599ac0ab49"
+}
