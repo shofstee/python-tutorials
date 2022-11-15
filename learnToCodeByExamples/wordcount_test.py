@@ -2,7 +2,7 @@ import unittest
 from wordcount import *
 
 
-class MyTestCase(unittest.TestCase):
+class WordCountTestCase(unittest.TestCase):
 
     def test_wordcount(self):
         self.assertEqual(4, wordcount("dit is een test"))
