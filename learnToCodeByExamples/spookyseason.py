@@ -1,9 +1,11 @@
 import sys
 
+
 # Solution wc16c1j1
 def calculate_spookines(spook_factor):
     spookiness = 'o' * spook_factor
     return 'sp' + spookiness + 'ky'
+
 
 if __name__ == '__main__':
     if len(sys.argv) == 1:
